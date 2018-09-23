@@ -8,7 +8,7 @@ public class MainTask5 {
     private static Logger logger = Logger.getLogger(MainTask5.class.getSimpleName());
     public static void main(String[] args) {
 
-        int number = 12345;
+        int number = 0;
         logger.info("method 'remainder of division' sum of number "+number+" digits is "+DataConversionService.getDigitsSumByRemainderOfDivision(number));
 
         logger.info("method 'divide to symbols' sum of number "+number+" digits is "+DataConversionService.getDigitsSumByDivisionToSymbols(number));
@@ -16,4 +16,5 @@ public class MainTask5 {
         int biggestPalindrome = DataConversionService.getBiggestPalindrome(1000,9999);
         logger.info("The biggest palindrome multiplication result of for all four number digit is "+String.valueOf(biggestPalindrome));
     }
+
 }
